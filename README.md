@@ -1,7 +1,12 @@
-# haberuygulama
 
-A new Flutter project. HABER UYGULAMASI 
-SUDENUR GÖKTEPE 2212102039
+<a id="readme-top"></a>
+
+<br />
+  <h3 align="center">Flutter Haber Uygulaması</h3>
+</div>
+
+## Bu Proje Hakkında
+
 Bu, benim geliştirdiğim haber uygulaması projesidir. Uygulama ilk açıldığında kullanıcıyı bir giriş sayfası karşılamaktadır.
 Giriş sayfasında, kullanıcı adını girerek karşılama sayfasına yönlendirilmektedir. 
 Kullanıcının girdiği isim, veri kaydetme yöntemiyle saklanmakta ve 
@@ -28,27 +33,36 @@ Bu favori sayfası Almanya haberleri için geliştirmeye açıktır.
 Sonuç olarak, uygulamam gelişmeye açık bir yapıdadır ve kullanıcıların geri bildirimleri doğrultusunda
 sürekli olarak yenilenmeye ve iyileştirilmeye hazırdır.
 
+<p align="right">(<a href="#readme-top">Başa Dön</a>)</p>
 
 
 
+### Kullanılan Teknolojiler
+
+* Flutter
+* Dart
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Ön Gereksinimler
+
+Bilgisayarınızda
+* Flutter
+* Dart
+* Android Studio
+  bulunması yeterlidir.
+
+### Kurulum
+
+Bu repository'nin klonlanması projenin kullanılması için yeterli olacaktır.
+
+   ```sh
+   git clone https://github.com/sudenurgoktepe/Flutter-ile-Haber-Uygulamasi.git
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-
-
-
-
-
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
