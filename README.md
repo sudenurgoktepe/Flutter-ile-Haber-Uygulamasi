@@ -1,68 +1,63 @@
+<a name="top"></a>
 
-<a id="readme-top"></a>
+<h1 align="center">📰 Flutter Haber Uygulaması</h1>
+<p align="center">
+  Güncel haberleri keşfet, favorilerine ekle ve farklı ülkelerden gelişmeleri takip et!
+</p>
 
-<br />
-  <h3 align="center">Flutter Haber Uygulaması</h3>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-v3.0-blue?logo=flutter" />
+  <img src="https://img.shields.io/badge/Dart-%5E3.0-blue?logo=dart" />
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green" />
+</p>
 
-## Bu Proje Hakkında
+---
 
-Bu, benim geliştirdiğim haber uygulaması projesidir. Uygulama ilk açıldığında kullanıcıyı bir giriş sayfası karşılamaktadır.
-Giriş sayfasında, kullanıcı adını girerek karşılama sayfasına yönlendirilmektedir. 
-Kullanıcının girdiği isim, veri kaydetme yöntemiyle saklanmakta ve 
-böylece uygulama yeniden başlatıldığında giriş sayfasını atlayarak doğrudan karşılama sayfasına geçiş yapılabilmektedir.
+## 🚀 Proje Hakkında
 
+Bu proje, Flutter kullanılarak geliştirilmiş bir haber uygulamasıdır. Kullanıcı dostu tasarımı ve pratik özellikleri sayesinde güncel haberlere hızlı ve kolay erişim sağlar.
 
-Karşılama sayfasında, kullanıcıları bilgilendirme amacıyla bir buton bulunmaktadır. 
-Bu butona tıklanarak güncel haberler görüntülenmekte ve ana sayfa açılmaktadır.
-Ana sayfa ilk olarak genel güncel haberleri göstermektedir. 
-Haberlerin sağ köşesine tıklayarak, haberin detaylarına inilebilmektedir.
-Kullanıcılara farklı kategoriler de sağlanmıştır;
-böylece kullanıcılar ilgi duydukları alanlardaki haberlere kolayca erişebilmektedirler.
+### 🔑 Temel Özellikler
 
-Uygulamanın sağ üst köşesindeki uygulama çubuğunda bir açılır liste (dropdown list) eklenmiştir.
-Bu liste aracılığıyla kullanıcılar, haber uygulamasını daha da geliştirmek amacıyla farklı ülkelerin haberlerine erişim sağlayabilmektedir. 
-"Ülke Seçiniz" bölümü geliştirmeye açık olup, uygulamanın potansiyelini artırmayı hedeflemektedir.
+- **Giriş Ekranı:**  
+  Uygulama ilk açıldığında kullanıcı adı istenir. Bu bilgi kayıt edilir ve sonraki açılışlarda giriş ekranı atlanarak karşılama sayfasına geçilir.
 
-Son olarak , uygulamamda bir favori sayfası mevcuttur.İsteyen kullanıcılar ilgisini çeken haberleri
-favorileyip daha sonra ana sayfadaki kalp butonuna tıklayınca favoriledikleri haberlere rahatlıkla
-ulaşabilirler ve uygulamayı açıp kapatınca önceden favorilediklerini görüntüleyebilirler ve isterlerse 
-silebilirler.
-Bu favori sayfası Almanya haberleri için geliştirmeye açıktır.
+- **Karşılama Sayfası:**  
+  Kullanıcıyı bilgilendirmek için bir buton yer alır. Butona tıklandığında güncel haberlerin listelendiği ana sayfa açılır.
 
-Sonuç olarak, uygulamam gelişmeye açık bir yapıdadır ve kullanıcıların geri bildirimleri doğrultusunda
-sürekli olarak yenilenmeye ve iyileştirilmeye hazırdır.
+- **Ana Sayfa:**  
+  Güncel haberler listelenir. Her haber kartının sağ üst köşesinden detaylara ulaşılabilir.
 
-<p align="right">(<a href="#readme-top">Başa Dön</a>)</p>
+- **Kategoriler:**  
+  Kullanıcı ilgi alanına göre farklı kategorilerdeki haberlere kolayca erişebilir.
 
+- **Ülke Seçimi:**  
+  Sağ üstte bulunan dropdown menü ile farklı ülkelerin haberleri seçilebilir. Bu özellik geliştirmeye açıktır.
 
+- **Favoriler Sayfası:**  
+  Kullanıcılar ilgisini çeken haberleri favorileyebilir. Favori haberler kalp ikonuyla erişilen ayrı bir sayfada görüntülenebilir ve yönetilebilir. Favoriler uygulama kapatılsa bile kaydedilir.
 
-### Kullanılan Teknolojiler
+---
 
-* Flutter
-* Dart
+## 🛠️ Kullanılan Teknolojiler
 
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
+### ✅ Ön Gereksinimler
 
-### Ön Gereksinimler
+Aşağıdaki araçların sisteminizde kurulu olması gerekmektedir:
 
-Bilgisayarınızda
-* Flutter
-* Dart
-* Android Studio
-  bulunması yeterlidir.
+- Flutter
+- Dart SDK
+- Android Studio (veya başka bir IDE)
 
-### Kurulum
+### 💻 Klonlama
 
-Bu repository'nin klonlanması projenin kullanılması için yeterli olacaktır.
-
-   ```sh
-   git clone https://github.com/sudenurgoktepe/Flutter-ile-Haber-Uygulamasi.git
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
+```bash
+git clone https://github.com/sudenurgoktepe/Flutter-ile-Haber-Uygulamasi.git
+cd Flutter-ile-Haber-Uygulamasi
+flutter pub get
+flutter run
